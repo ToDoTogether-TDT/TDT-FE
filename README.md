@@ -4,6 +4,7 @@
 
 ```
 npm i
+npm i -g json-server
 npm run dev-json
 
 // http://localhost:3000 개발 서버
@@ -12,7 +13,7 @@ npm run dev-json
 
 ## 기술 스택
 
-- **React** - UI Library
+- **React** - UI
 - **Next** - SSR, ISR
 - **tailwind** - styling
 - **recoil** - state management
@@ -20,6 +21,9 @@ npm run dev-json
 - **react-query** - fetch library
 - **vercel** - deploy
 - **json-server** - mock API data
+- **tally** - 설문조사, 피드백
+- **chart.js** - 데이터 시각화
+- **next-auth** - oauth
 
 ## 커밋 type
 
