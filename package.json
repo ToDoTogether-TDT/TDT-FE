@@ -3,7 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "dev-json": "npm run dev & npm run json",
     "dev": "next dev",
+    "json": "json-server --watch --port 8080 db.json",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
