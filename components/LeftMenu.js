@@ -3,7 +3,7 @@ import Link from 'next/link'
 export default function LeftMenu() {
   return (
     <>
-      <div className='fixed w-48 flex flex-col gap-1 text-sm'>
+      <div className='fixed flex flex-col gap-1 text-sm'>
         <Link
           href='/todo'
           className='py-2 px-4 rounded-lg hover:bg-[#fefefe] text-stone-600   transition'
@@ -37,7 +37,7 @@ export default function LeftMenu() {
           ✏️ 내가 속한 스터디
         </Link> */}
       </div>
-      <div className='w-48 h-80'></div>
+      <div className='w-72 h-80'></div>
     </>
   )
 }
