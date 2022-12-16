@@ -4,8 +4,10 @@
 
 ```
 npm i
-npm run dev
+npm run dev-json
+
 // http://localhost:3000 개발 서버
+// http://localhost:8080 mock API 서버
 ```
 
 ## 기술 스택
@@ -17,6 +19,7 @@ npm run dev
 - **axios** - fetch library
 - **react-query** - fetch library
 - **vercel** - deploy
+- **json-server** - mock API data
 
 ## 커밋 type
 
