@@ -3,7 +3,10 @@ import Link from 'next/link'
 export default function RightMenu() {
   return (
     <div className='min-w-[260px] mr-4 hidden lg:flex flex-col gap-6 '>
-      <Link href='/about' className=' border border-black rounded-xl px-4 py-6'>
+      <Link
+        href='/about'
+        className=' border border-yellow-500  bg-yellow-100 rounded-xl px-4 py-6'
+      >
         <p className='text-lg font-bold text-slate-800'>TDT는 처음이신가요?</p>
         <p className='text-stone-500 text-sm mt-2'>
           사이트 소개를 읽어보세요! 👍
@@ -12,7 +15,7 @@ export default function RightMenu() {
           <img className='w-28' src='/tdt-logo.webp' alt='tdt logo' />
         </div>
       </Link>
-      <div className='border border-black rounded-xl px-4 py-6'>
+      <div className='border border-zinc-500 rounded-xl px-4 py-6 bg-zinc-200'>
         <p className='text-lg font-bold text-slate-800'>
           TDT를 함께 만들어가요
         </p>

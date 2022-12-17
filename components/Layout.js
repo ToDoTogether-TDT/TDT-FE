@@ -13,7 +13,9 @@ export default function Layout({ children }) {
           <LeftMenu />
 
           {/* chidren */}
-          <div className='w-full mx-2'>{children}</div>
+          <div className='w-full ml-2 mr-4 lg:mr-0 min-h-screen'>
+            {children}
+          </div>
 
           {/* right menu */}
           <RightMenu />
