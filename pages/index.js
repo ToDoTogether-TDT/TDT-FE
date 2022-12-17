@@ -1,19 +1,7 @@
-import { useEffect, useState } from 'react'
 import Layout from '../components/Layout'
+import { studies } from '../mock/studies'
 
 export default function Home() {
-  const [studies, setStudies] = useState([])
-
-  useEffect(() => {
-    ;(async () => {
-      const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/study`)
-      const data = await res.json()
-
-      console.log(data)
-      setStudies(data)
-    })()
-  }, [])
-
   return (
     <Layout>
       {/* <h1 className='text-5xl text-stone-900 font-black'>🔥진행중인 스터디</h1> */}

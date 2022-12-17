@@ -4,7 +4,6 @@
 
 ```
 npm i
-npm i -g json-server
 npm run dev-json
 
 // http://localhost:3000 개발 서버
