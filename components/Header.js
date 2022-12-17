@@ -9,13 +9,21 @@ export default function Header() {
             <img className='w-20' src='/tdt-logo.webp' alt='tdt logo' />
           </Link>
 
-          <div className='flex'>
-            <button className='text-sm hover:bg-stone-200 transition rounded py-2 px-3'>
+          <div className='flex items-center text-sm'>
+            <div className='mr-6 border-r-2 border-stone-400 pr-8 flex gap-4 lg:hidden'>
+              <Link href='/about' className=''>
+                사이트 소개
+              </Link>
+              <a href='#' className=''>
+                피드백 ❤️
+              </a>
+            </div>
+            <button className=' hover:bg-stone-200 transition rounded py-2 px-3'>
               로그인
             </button>
-            <button className='text-sm hover:bg-stone-200 transition rounded py-2 px-3'>
+            {/* <button className=' hover:bg-stone-200 transition rounded py-2 px-3'>
               회원가입
-            </button>
+            </button> */}
           </div>
         </div>
       </header>

@@ -6,7 +6,7 @@ export default function Footer() {
       <div className='max-w-[1160px] mx-auto py-10 px-4 flex items-center gap-10'>
         <div className='flex flex-col gap-2'>
           <Link href='/' className='flex items-end'>
-            <img className='w-20' src='/tdt-logo.webp' alt='tdt logo' />
+            <img className='w-16' src='/tdt-logo.webp' alt='tdt logo' />
           </Link>
           <p className='text-stone-500 text-xs'>© 2022 TDT.</p>
         </div>

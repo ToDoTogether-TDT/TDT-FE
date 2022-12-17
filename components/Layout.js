@@ -13,7 +13,7 @@ export default function Layout({ children }) {
           <LeftMenu />
 
           {/* chidren */}
-          <div className='w-full mx-2 border border-black'>{children}</div>
+          <div className='w-full mx-2'>{children}</div>
 
           {/* right menu */}
           <RightMenu />
