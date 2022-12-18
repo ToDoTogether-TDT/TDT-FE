@@ -1,4 +1,18 @@
 {
+  "users": [
+    {
+      "id": 1,
+      "name": "장원석[학생](소프트웨어융합대학 컴퓨터공학부)",
+      "nickname": "@jws970306",
+      "image": "https://lh3.googleusercontent.com/a/AEdFTp6MHfhS0pw7GJdIed-eovHdp9RInUbYu8A4RrUT=s96-c"
+    },
+    {
+      "id": 2,
+      "name": "장원석",
+      "nickname": "@jws970306jws",
+      "image": "https://lh3.googleusercontent.com/a/AEdFTp7Uf_tIX1cSyOyn36spNNLiDVqL-Ea5o54geP7N=s96-c"
+    }
+  ],
   "studies": [
     {
       "id": 1,

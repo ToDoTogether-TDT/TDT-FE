@@ -7,8 +7,6 @@ export default function Header() {
   const { data: session } = useSession()
   const [isProfile, setIsProfile] = useState(false)
 
-  console.log(session?.user)
-
   return (
     <>
       <header className='fixed top-0 inset-x-0 bg-[#fbfbfb] bg-opacity-80 border py-2 px-4 z-10'>
