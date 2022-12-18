@@ -18,19 +18,19 @@ export default function RightMenu() {
       <div className='flex flex-col gap-3 sticky top-20'>
         <Link
           href='/about'
-          className='border border-yellow-500  bg-yellow-100 rounded-xl px-4 py-6'
+          className='border  bg-yellow-100 rounded-xl px-4 py-6'
         >
           <p className='text-lg font-bold text-slate-800'>
             TDT는 처음이신가요?
           </p>
           <p className='text-stone-500 text-sm mt-2'>
-            사이트 소개를 읽어보세요! 👍
+            사이트 소개를 읽어보세요 👋
           </p>
           <div className='flex justify-center mt-8'>
             <img className='w-28' src='/tdt-logo.webp' alt='tdt logo' />
           </div>
         </Link>
-        <div className='border border-zinc-500 rounded-xl px-4 py-6 bg-zinc-200'>
+        <div className='border rounded-xl px-4 py-6 bg-white'>
           <p className='text-lg font-bold text-slate-800'>
             TDT를 함께 만들어가요
           </p>

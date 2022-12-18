@@ -707,5 +707,163 @@
         }
       ]
     }
+  ],
+  "posts": [
+    {
+      "title": "게시글 테스트 ",
+      "category": "daily",
+      "content": "<h1>hello world</h1><ul><li class=\"task-list-item\" data-task=\"true\"><p>213</p></li><li class=\"task-list-item\" data-task=\"true\"><p>123</p></li><li class=\"task-list-item\" data-task=\"true\"><p>213</p></li></ul><p><strong>dgdg</strong></p>",
+      "plain_content": "hello world\n\n213\n123\n213\n\ndgdg",
+      "author": {
+        "name": "‍장원석[학생](소프트웨어융합대학 컴퓨터공학부)",
+        "nickname": "@jws970306",
+        "image": "https://lh3.googleusercontent.com/a/AEdFTp6MHfhS0pw7GJdIed-eovHdp9RInUbYu8A4RrUT=s96-c"
+      },
+      "createdAt": "2022-12-18T09:10:51.603Z",
+      "id": 1
+    },
+    {
+      "title": "게시글 테스트 ",
+      "category": "daily",
+      "content": "<h1>hello world</h1><ul><li class=\"task-list-item\" data-task=\"true\"><p>213</p></li><li class=\"task-list-item\" data-task=\"true\"><p>123</p></li><li class=\"task-list-item\" data-task=\"true\"><p>213</p></li></ul><p><strong>dgdg</strong></p>",
+      "plain_content": "hello world\n\n213\n123\n213\n\ndgdg",
+      "author": {
+        "name": "‍장원석[학생](소프트웨어융합대학 컴퓨터공학부)",
+        "nickname": "@jws970306",
+        "image": "https://lh3.googleusercontent.com/a/AEdFTp6MHfhS0pw7GJdIed-eovHdp9RInUbYu8A4RrUT=s96-c"
+      },
+      "createdAt": "2022-12-18T09:10:51.655Z",
+      "id": 2
+    },
+    {
+      "title": "게시글 테스트 ",
+      "category": "daily",
+      "content": "<h1>hello world</h1><ul><li class=\"task-list-item\" data-task=\"true\"><p>213</p></li><li class=\"task-list-item\" data-task=\"true\"><p>123</p></li><li class=\"task-list-item\" data-task=\"true\"><p>213</p></li></ul><p><strong>dgdg</strong></p>",
+      "plain_content": "hello world\n\n213\n123\n213\n\ndgdg",
+      "author": {
+        "name": "‍장원석[학생](소프트웨어융합대학 컴퓨터공학부)",
+        "nickname": "@jws970306",
+        "image": "https://lh3.googleusercontent.com/a/AEdFTp6MHfhS0pw7GJdIed-eovHdp9RInUbYu8A4RrUT=s96-c"
+      },
+      "createdAt": "2022-12-18T09:10:57.240Z",
+      "id": 3
+    },
+    {
+      "title": "게시글 테스트 ",
+      "category": "daily",
+      "content": "<h1>hello world</h1><ul><li class=\"task-list-item\" data-task=\"true\"><p>213</p></li><li class=\"task-list-item\" data-task=\"true\"><p>123</p></li><li class=\"task-list-item\" data-task=\"true\"><p>213</p></li></ul><p><strong>dgdg</strong></p>",
+      "plain_content": "hello world\n\n213\n123\n213\n\ndgdg",
+      "author": {
+        "name": "‍장원석[학생](소프트웨어융합대학 컴퓨터공학부)",
+        "nickname": "@jws970306",
+        "image": "https://lh3.googleusercontent.com/a/AEdFTp6MHfhS0pw7GJdIed-eovHdp9RInUbYu8A4RrUT=s96-c"
+      },
+      "createdAt": "2022-12-18T09:10:57.414Z",
+      "id": 4
+    },
+    {
+      "title": "게시글 테스트 ",
+      "category": "daily",
+      "content": "<h1>hello world</h1><ul><li class=\"task-list-item\" data-task=\"true\"><p>213</p></li><li class=\"task-list-item\" data-task=\"true\"><p>123</p></li><li class=\"task-list-item\" data-task=\"true\"><p>213</p></li></ul><p><strong>dgdg</strong></p>",
+      "plain_content": "hello world\n\n213\n123\n213\n\ndgdg",
+      "author": {
+        "name": "‍장원석[학생](소프트웨어융합대학 컴퓨터공학부)",
+        "nickname": "@jws970306",
+        "image": "https://lh3.googleusercontent.com/a/AEdFTp6MHfhS0pw7GJdIed-eovHdp9RInUbYu8A4RrUT=s96-c"
+      },
+      "createdAt": "2022-12-18T09:10:57.559Z",
+      "id": 5
+    },
+    {
+      "title": "게시글 테스트 ",
+      "category": "daily",
+      "content": "<h1>hello world</h1><ul><li class=\"task-list-item\" data-task=\"true\"><p>213</p></li><li class=\"task-list-item\" data-task=\"true\"><p>123</p></li><li class=\"task-list-item\" data-task=\"true\"><p>213</p></li></ul><p><strong>dgdg</strong></p>",
+      "plain_content": "hello world\n\n213\n123\n213\n\ndgdg",
+      "author": {
+        "name": "‍장원석[학생](소프트웨어융합대학 컴퓨터공학부)",
+        "nickname": "@jws970306",
+        "image": "https://lh3.googleusercontent.com/a/AEdFTp6MHfhS0pw7GJdIed-eovHdp9RInUbYu8A4RrUT=s96-c"
+      },
+      "createdAt": "2022-12-18T09:10:57.723Z",
+      "id": 6
+    },
+    {
+      "title": "게시글 테스트 ",
+      "category": "worry",
+      "content": "<h1>hello world</h1><ul><li class=\"task-list-item\" data-task=\"true\"><p>213</p></li><li class=\"task-list-item\" data-task=\"true\"><p>123</p></li><li class=\"task-list-item\" data-task=\"true\"><p>213</p></li></ul><p><strong>dgdg</strong></p>",
+      "plain_content": "hello world\n\n213\n123\n213\n\ndgdg",
+      "author": {
+        "name": "‍장원석[학생](소프트웨어융합대학 컴퓨터공학부)",
+        "nickname": "@jws970306",
+        "image": "https://lh3.googleusercontent.com/a/AEdFTp6MHfhS0pw7GJdIed-eovHdp9RInUbYu8A4RrUT=s96-c"
+      },
+      "createdAt": "2022-12-18T09:11:02.207Z",
+      "id": 7
+    },
+    {
+      "title": "게시글 테스트 ",
+      "category": "worry",
+      "content": "<h1>hello world</h1><ul><li class=\"task-list-item\" data-task=\"true\"><p>213</p></li><li class=\"task-list-item\" data-task=\"true\"><p>123</p></li><li class=\"task-list-item\" data-task=\"true\"><p>213</p></li></ul><p><strong>dgdg</strong></p>",
+      "plain_content": "hello world\n\n213\n123\n213\n\ndgdg",
+      "author": {
+        "name": "‍장원석[학생](소프트웨어융합대학 컴퓨터공학부)",
+        "nickname": "@jws970306",
+        "image": "https://lh3.googleusercontent.com/a/AEdFTp6MHfhS0pw7GJdIed-eovHdp9RInUbYu8A4RrUT=s96-c"
+      },
+      "createdAt": "2022-12-18T09:11:02.361Z",
+      "id": 8
+    },
+    {
+      "title": "게시글 테스트 ",
+      "category": "promotion",
+      "content": "<h1>hello world</h1><ul><li class=\"task-list-item\" data-task=\"true\"><p>213</p></li><li class=\"task-list-item\" data-task=\"true\"><p>123</p></li><li class=\"task-list-item\" data-task=\"true\"><p>213</p></li></ul><p><strong>dgdg</strong></p>",
+      "plain_content": "hello world\n\n213\n123\n213\n\ndgdg",
+      "author": {
+        "name": "‍장원석[학생](소프트웨어융합대학 컴퓨터공학부)",
+        "nickname": "@jws970306",
+        "image": "https://lh3.googleusercontent.com/a/AEdFTp6MHfhS0pw7GJdIed-eovHdp9RInUbYu8A4RrUT=s96-c"
+      },
+      "createdAt": "2022-12-18T09:11:04.408Z",
+      "id": 9
+    },
+    {
+      "title": "게시글 테스트 ",
+      "category": "promotion",
+      "content": "<h1>hello world</h1><ul><li class=\"task-list-item\" data-task=\"true\"><p>213</p></li><li class=\"task-list-item\" data-task=\"true\"><p>123</p></li><li class=\"task-list-item\" data-task=\"true\"><p>213</p></li></ul><p><strong>dgdg</strong></p>",
+      "plain_content": "hello world\n\n213\n123\n213\n\ndgdg",
+      "author": {
+        "name": "‍장원석[학생](소프트웨어융합대학 컴퓨터공학부)",
+        "nickname": "@jws970306",
+        "image": "https://lh3.googleusercontent.com/a/AEdFTp6MHfhS0pw7GJdIed-eovHdp9RInUbYu8A4RrUT=s96-c"
+      },
+      "createdAt": "2022-12-18T09:11:06.257Z",
+      "id": 10
+    },
+    {
+      "title": "게시글 테스트 ",
+      "category": "promotion",
+      "content": "<h1>hello world</h1><ul><li class=\"task-list-item\" data-task=\"true\"><p>213</p></li><li class=\"task-list-item\" data-task=\"true\"><p>123</p></li><li class=\"task-list-item\" data-task=\"true\"><p>213</p></li></ul><p><strong>dgdg</strong></p>",
+      "plain_content": "hello world\n\n213\n123\n213\n\ndgdg",
+      "author": {
+        "name": "‍장원석[학생](소프트웨어융합대학 컴퓨터공학부)",
+        "nickname": "@jws970306",
+        "image": "https://lh3.googleusercontent.com/a/AEdFTp6MHfhS0pw7GJdIed-eovHdp9RInUbYu8A4RrUT=s96-c"
+      },
+      "createdAt": "2022-12-18T09:11:06.473Z",
+      "id": 11
+    },
+    {
+      "title": "일이삼",
+      "category": "worry",
+      "content": "<p>사오륙</p>",
+      "plain_content": "사오륙",
+      "author": {
+        "name": "‍장원석[학생](소프트웨어융합대학 컴퓨터공학부)",
+        "nickname": "@jws970306",
+        "image": "https://lh3.googleusercontent.com/a/AEdFTp6MHfhS0pw7GJdIed-eovHdp9RInUbYu8A4RrUT=s96-c"
+      },
+      "createdAt": "2022-12-18T12:57:54.504Z",
+      "id": 12
+    }
   ]
 }

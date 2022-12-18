@@ -33,3 +33,8 @@ npm run dev-json
 - refactor : 코드 리펙토링
 - test : Test 관련한 코드의 추가, 수정
 - chore : (코드의 수정 없이) 설정을 변경
+
+## 나중에 해야 할 것
+
+- prevent XSS: DomPurify
+- toastify

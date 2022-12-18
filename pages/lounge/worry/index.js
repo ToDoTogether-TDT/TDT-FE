@@ -1,9 +1,10 @@
-import Layout from '../../components/Layout'
-import PostCard from '../../components/PostCard'
-import { useFetch } from '../../lib/useFetch'
+import PostCard from '../../../components/PostCard'
+import { useFetch } from '../../../lib/useFetch'
+import Layout from '../../../components/Layout'
 
-export default function LoungeHome() {
-  const posts = useFetch('posts')
+export default function Worry() {
+  const posts = useFetch('posts', 'category', 'worry')
+  console.log(posts)
 
   if (!posts || posts.length === 0) return <Layout>loading...</Layout>
 
