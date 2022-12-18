@@ -17,7 +17,7 @@ npm run dev-json
 - **tailwind** - styling
 - **recoil** - state management
 - **axios** - fetch library
-- **react-query** - fetch library
+- **SWR** - fetch library
 - **vercel** - deploy
 - **json-server** - mock API data
 - **tally** - 설문조사, 피드백
