@@ -11,11 +11,16 @@ export default function Footer() {
           <p className='text-stone-500 text-xs'>© 2022 TDT.</p>
         </div>
 
-        <div className='flex flex-col text-sm text-slate-500 gap-1'>
-          <Link href='/about'>• 사이트 소개</Link>
-          <a href='#'>• 카카오톡</a>
-          <a href='#'>• 디스코드</a>
-          <a href='#'>• 문의</a>
+        <div className='flex text-sm text-slate-500 gap-6'>
+          <div className='flex flex-col gap-1'>
+            <Link href='/about'>• 사이트 소개</Link>
+            <a href='#'>• 피드백</a>
+            <a href='#'>• 문의</a>
+          </div>
+          <div className='flex flex-col gap-1'>
+            <a href='#'>• 카카오톡</a>
+            <a href='#'>• 디스코드</a>
+          </div>
         </div>
       </div>
     </footer>
