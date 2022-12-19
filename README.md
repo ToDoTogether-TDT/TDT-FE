@@ -3,7 +3,7 @@
 ## 실행
 
 ```
-npm i
+npm i —legacy-peer-deps
 npm run dev-json
 
 // http://localhost:3000 개발 서버
