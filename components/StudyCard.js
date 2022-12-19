@@ -1,6 +1,11 @@
+import Link from 'next/link'
+
 export default function StudyCard({ study }) {
   return (
-    <div className='w-full h-[300px] bg-[#fafafa] shadow hover:shadow-lg transition border p-4 flex flex-col justify-between rounded-xl'>
+    <Link
+      href={`/${study.category}/${study.id}`}
+      className='w-full h-[300px] bg-[#fafafa] shadow hover:shadow-lg transition border p-4 flex flex-col justify-between rounded-xl'
+    >
       <div className='flex flex-col gap-2'>
         <div className='flex justify-between items-center'>
           <div className='flex items-center gap-2'>
@@ -8,6 +13,7 @@ export default function StudyCard({ study }) {
               className='w-7 h-7 rounded-lg'
               src={study.author.image}
               alt='123'
+              referrerPolicy='no-referrer'
             />
             <span className='text-sm text-stone-600'>{study.author.name}</span>
           </div>
@@ -47,11 +53,12 @@ export default function StudyCard({ study }) {
               src={member.image}
               alt='1234'
               key={member.id}
+              referrerPolicy='no-referrer'
             />
           ))}
           <p className='text-xs ml-1'>• {study.members.length}명 참여 중</p>
         </div>
       </div>
-    </div>
+    </Link>
   )
 }
