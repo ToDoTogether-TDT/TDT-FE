@@ -31,36 +31,27 @@ export default function PostingLounge() {
   }
 
   const onUploadPost = () => {
-    axios.post(`${process.env.NEXT_PUBLIC_BASE_URL}/posts`, {
-      title: titleRef.current.value,
-      category: categoryRef.current.value,
-      content: editorRef.current.editorInst.getHTML(),
-      plain_content: markdownToTxt(editorRef.current.editorInst.getMarkdown()),
-      author: {
-        name: session.user.name,
-        nickname: '@' + sliceEmail(session.user.email),
-        image: session.user.image,
-      },
-      createdAt: new Date(),
-    })
-    // .then(() => router.push(`/lounge/${categoryRef.current.value}`))
+    axios
+      .post(`${process.env.NEXT_PUBLIC_BASE_URL}/posts`, {
+        title: titleRef.current.value,
+        category: categoryRef.current.value,
+        content: editorRef.current.editorInst.getHTML(),
+        plain_content: markdownToTxt(
+          editorRef.current.editorInst.getMarkdown()
+        ),
+        author: {
+          name: session.user.name,
+          nickname: '@' + sliceEmail(session.user.email),
+          image: session.user.image,
+        },
+        createdAt: new Date(),
+      })
+      .then(() => router.push(`/lounge/${categoryRef.current.value}`))
   }
 
   return (
     <Layout>
       <div className='flex flex-col gap-4'>
-        <div>
-          <div>
-            <span className='text-sm'>제목 </span>
-            <span className='text-rose-500'>*</span>
-          </div>
-          <input
-            ref={titleRef}
-            type='text'
-            className={`w-full rounded border h-[48px] mt-2 pl-6`}
-            placeholder='제목을 입력해주세요'
-          />
-        </div>
         <div>
           <div>
             <span className='text-sm'>카테고리 </span>
@@ -78,6 +69,19 @@ export default function PostingLounge() {
             <option value='promotion'>🙋🏻‍♀️ 스터디 홍보</option>
           </select>
         </div>
+        <div>
+          <div>
+            <span className='text-sm'>제목 </span>
+            <span className='text-rose-500'>*</span>
+          </div>
+          <input
+            ref={titleRef}
+            type='text'
+            className={`w-full rounded border h-[48px] mt-2 pl-6`}
+            placeholder='제목을 입력해주세요'
+          />
+        </div>
+
         <div>
           <div className='mb-2'>
             <span className='text-sm'>본문 </span>

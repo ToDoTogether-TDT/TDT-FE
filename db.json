@@ -864,6 +864,19 @@
       },
       "createdAt": "2022-12-18T12:57:54.504Z",
       "id": 12
+    },
+    {
+      "title": "스터디홍보 🙋🏻‍♀️",
+      "category": "promotion",
+      "content": "<p>🔥🔥🔥</p>",
+      "plain_content": "🔥🔥🔥",
+      "author": {
+        "name": "‍장원석[학생](소프트웨어융합대학 컴퓨터공학부)",
+        "nickname": "@jws970306",
+        "image": "https://lh3.googleusercontent.com/a/AEdFTp6MHfhS0pw7GJdIed-eovHdp9RInUbYu8A4RrUT=s96-c"
+      },
+      "createdAt": "2022-12-19T03:36:49.165Z",
+      "id": 13
     }
   ]
 }

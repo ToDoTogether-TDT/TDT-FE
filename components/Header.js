@@ -173,13 +173,13 @@ export default function Header() {
             <div className='hidden md:flex items-center gap-3 lg:hidden'>
               <Link
                 href='/posting-study'
-                className='bg-slate-900 text-slate-200 rounded py-3 px-2 ml-4'
+                className='bg-slate-900 text-xs text-slate-200 rounded p-3 ml-4'
               >
                 스터디 만들기 🚀
               </Link>
               <Link
                 href='/posting-lounge'
-                className=' bg-stone-800 text-stone-200 rounded py-3 px-2'
+                className=' bg-stone-800 text-xs text-stone-200 rounded p-3'
               >
                 게시글 작성 📑
               </Link>

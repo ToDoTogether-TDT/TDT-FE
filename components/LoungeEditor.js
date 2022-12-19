@@ -6,7 +6,7 @@ export default function LoungeEditor({ forwardedRef }) {
   return (
     <Editor
       ref={forwardedRef}
-      initialValue='자유 게시판 🙌'
+      initialValue='🔥🔥🔥'
       height='400px'
       initialEditType='wysiwyg'
       previewHighlight={false}
