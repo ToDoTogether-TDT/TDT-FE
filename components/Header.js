@@ -3,6 +3,7 @@ import { useSession, signIn, signOut } from 'next-auth/react'
 import { useState } from 'react'
 import { sliceEmail } from '../lib/sliceEmail'
 import { useRouter } from 'next/router'
+import Layout from './Layout'
 
 const modalState = {
   DEFAULT: 'DEFAULT',
