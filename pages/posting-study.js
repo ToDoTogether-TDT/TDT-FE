@@ -30,6 +30,8 @@ export default function PostingStudy() {
     }
   }
 
+  if (session) console.log(session)
+
   const onUploadPost = () => {
     axios.post(`${process.env.NEXT_PUBLIC_BASE_URL}/posts`, {
       title: titleRef.current.value,
@@ -45,6 +47,9 @@ export default function PostingStudy() {
     })
     // .then(() => router.push(`/lounge/${categoryRef.current.value}`))
   }
+
+  if (session.user.email === 'jws970306@khu.ac.ckr')
+    return <Layout>권한이 없습니다</Layout>
 
   return (
     <Layout>

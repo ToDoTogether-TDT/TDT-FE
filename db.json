@@ -1,110 +1,16 @@
 {
   "users": [
     {
-      "id": 1,
-      "name": "장원석[학생](소프트웨어융합대학 컴퓨터공학부)",
-      "nickname": "@jws970306",
-      "image": "https://lh3.googleusercontent.com/a/AEdFTp6MHfhS0pw7GJdIed-eovHdp9RInUbYu8A4RrUT=s96-c"
+      "name": "‍장원석[학생](소프트웨어융합대학 컴퓨터공학부)",
+      "email": "jws970306@khu.ac.kr",
+      "image": "https://lh3.googleusercontent.com/a/AEdFTp6MHfhS0pw7GJdIed-eovHdp9RInUbYu8A4RrUT=s96-c",
+      "id": 1
     },
     {
-      "id": 2,
       "name": "장원석",
-      "nickname": "@jws970306jws",
-      "image": "https://lh3.googleusercontent.com/a/AEdFTp7Uf_tIX1cSyOyn36spNNLiDVqL-Ea5o54geP7N=s96-c"
-    },
-    {
-      "name": "정솔",
-      "email": "jsol78@naver.com",
-      "id": 3
-    },
-    {
-      "name": "정솔",
-      "email": "jsol78@naver.com",
-      "id": 4
-    },
-    {
-      "name": "정솔",
-      "email": "jsol78@naver.com",
-      "id": 5
-    },
-    {
-      "name": "정솔",
-      "email": "jsol78@naver.com",
-      "id": 6
-    },
-    {
-      "name": "정솔",
-      "email": "jsol78@naver.com",
-      "id": 7
-    },
-    {
-      "name": "정솔",
-      "email": "jsol78@naver.com",
-      "id": 8
-    },
-    {
-      "name": "정솔",
-      "email": "jsol78@naver.com",
-      "id": 9
-    },
-    {
-      "name": "정솔",
-      "email": "jsol78@naver.com",
-      "id": 10
-    },
-    {
-      "name": "정솔",
-      "id": 11
-    },
-    {
-      "name": "정솔",
-      "id": 12
-    },
-    {
-      "name": "정솔",
-      "email": "jsol78@naver.com",
-      "id": 13
-    },
-    {
-      "name": "정솔",
-      "email": "jsol78@naver.com",
-      "id": 14
-    },
-    {
-      "name": "정솔",
-      "email": "jsol78@naver.com",
-      "id": 15
-    },
-    {
-      "name": "정솔",
-      "email": "jsol78@naver.com",
-      "id": 16
-    },
-    {
-      "name": "정솔",
-      "email": "jsol78@naver.com",
-      "id": 17
-    },
-    {
-      "name": "정솔",
-      "email": "jsol78@naver.com",
-      "id": 18
-    },
-    {
-      "name": "정솔",
-      "email": "jsol78@naver.com",
-      "id": 19
-    },
-    {
-      "name": "정솔",
-      "email": "jsol78@naver.com",
-      "picture": "https://lh3.googleusercontent.com/a/AEdFTp7Uf_tIX1cSyOyn36spNNLiDVqL-Ea5o54geP7N=s96-c",
-      "id": 20
-    },
-    {
-      "name": "정솔",
-      "email": "jsol78@naver.com",
-      "id": 21
+      "email": "jws970306jws@gmail.com",
+      "image": "https://lh3.googleusercontent.com/a/AEdFTp7Uf_tIX1cSyOyn36spNNLiDVqL-Ea5o54geP7N=s96-c",
+      "id": 2
     }
   ],
   "studies": [
