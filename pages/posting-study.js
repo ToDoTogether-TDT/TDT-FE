@@ -2,7 +2,6 @@ import axios from 'axios'
 import dynamic from 'next/dynamic'
 import { useRouter } from 'next/router'
 import { forwardRef, useRef } from 'react'
-import { markdownToTxt } from 'markdown-to-txt'
 import Layout from '../components/Layout'
 import { useSession } from 'next-auth/react'
 import { sliceEmail } from '../lib/sliceEmail'
@@ -19,6 +18,7 @@ export default function PostingStudy() {
   const editorRef = useRef()
   const titleRef = useRef()
   const categoryRef = useRef()
+  const introductionRef = useRef()
   const { data: session } = useSession()
 
   const onCancelPost = () => {
@@ -33,19 +33,20 @@ export default function PostingStudy() {
   if (session) console.log(session)
 
   const onUploadPost = () => {
-    axios.post(`${process.env.NEXT_PUBLIC_BASE_URL}/posts`, {
-      title: titleRef.current.value,
-      category: categoryRef.current.value,
-      content: editorRef.current.editorInst.getHTML(),
-      plain_content: markdownToTxt(editorRef.current.editorInst.getMarkdown()),
-      author: {
-        name: session.user.name,
-        nickname: '@' + sliceEmail(session.user.email),
-        image: session.user.image,
-      },
-      createdAt: new Date(),
-    })
-    // .then(() => router.push(`/lounge/${categoryRef.current.value}`))
+    axios
+      .post(`${process.env.NEXT_PUBLIC_BASE_URL}/studies`, {
+        category: categoryRef.current.value,
+        title: titleRef.current.value,
+        introduction: introductionRef.current.value,
+        content: editorRef.current.editorInst.getHTML(),
+        author: {
+          name: session.user.name,
+          nickname: '@' + sliceEmail(session.user.email),
+          image: session.user.image,
+        },
+        createdAt: new Date(),
+      })
+      .then(() => router.push(`/${categoryRef.current.value}`))
   }
 
   if (session.user.email === 'jws970306@khu.ac.ckr')
@@ -87,6 +88,18 @@ export default function PostingStudy() {
             placeholder='제목을 입력해주세요'
           />
         </div>
+        <div>
+          <div>
+            <span className='text-sm'>스터디 소개 </span>
+            <span className='text-rose-500'>*</span>
+          </div>
+          <input
+            ref={introductionRef}
+            type='text'
+            className={`w-full rounded border h-[48px] mt-2 pl-6`}
+            placeholder='스터디에 대한 짧은 소개를 입력해주세요'
+          />
+        </div>
 
         <div>
           <div className='mb-2'>
@@ -97,14 +110,12 @@ export default function PostingStudy() {
         </div>
         <div className='flex gap-2'>
           <button
-            disabled
             onClick={onCancelPost}
             className='py-3 px-8 border border-black rounded'
           >
             취소
           </button>
           <button
-            disabled
             onClick={onUploadPost}
             className='py-3 px-8 border border-black rounded bg-blue-200'
           >

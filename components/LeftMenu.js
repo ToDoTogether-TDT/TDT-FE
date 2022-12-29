@@ -32,7 +32,7 @@ export default function LeftMenu() {
               <Link
                 href='/programming'
                 className={`py-1 px-4 text-[13px] rounded-lg text-stone-600 transition ${
-                  router.asPath === '/programming'
+                  router.asPath.startsWith('/programming')
                     ? 'font-bold bg-slate-800 text-white'
                     : null
                 }`}
@@ -42,7 +42,7 @@ export default function LeftMenu() {
               <Link
                 href='/job'
                 className={`py-1 px-4 text-[13px] rounded-lg text-stone-600 transition ${
-                  router.asPath === '/job'
+                  router.asPath.startsWith('/job')
                     ? 'font-bold bg-slate-800 text-white'
                     : null
                 }`}
@@ -52,7 +52,7 @@ export default function LeftMenu() {
               <Link
                 href='/exam'
                 className={`py-1 px-4 text-[13px] rounded-lg text-stone-600 transition ${
-                  router.asPath === '/exam'
+                  router.asPath.startsWith('/exam')
                     ? 'font-bold bg-slate-800 text-white'
                     : null
                 }`}
@@ -62,7 +62,7 @@ export default function LeftMenu() {
               <Link
                 href='/hobby'
                 className={`py-1 px-4 text-[13px] rounded-lg text-stone-600 transition ${
-                  router.asPath === '/hobby'
+                  router.asPath.startsWith('/hobby')
                     ? 'font-bold bg-slate-800 text-white'
                     : null
                 }`}
@@ -72,7 +72,7 @@ export default function LeftMenu() {
               <Link
                 href='/language'
                 className={`py-1 px-4 text-[13px] rounded-lg text-stone-600 transition ${
-                  router.asPath === '/language'
+                  router.asPath.startsWith('/language')
                     ? 'font-bold bg-slate-800 text-white'
                     : null
                 }`}
@@ -82,7 +82,7 @@ export default function LeftMenu() {
               <Link
                 href='/book'
                 className={`py-1 px-4 text-[13px] rounded-lg text-stone-600 transition ${
-                  router.asPath === '/book'
+                  router.asPath.startsWith('/book')
                     ? 'font-bold bg-slate-800 text-white'
                     : null
                 }`}
@@ -92,7 +92,7 @@ export default function LeftMenu() {
               <Link
                 href='/etc'
                 className={`py-1 px-4 text-[13px] rounded-lg text-stone-600 transition ${
-                  router.asPath === '/etc'
+                  router.asPath.startsWith('/etc')
                     ? 'font-bold bg-slate-800 text-white'
                     : null
                 }`}
@@ -124,7 +124,7 @@ export default function LeftMenu() {
               <Link
                 href='/lounge/daily'
                 className={`py-1 px-4 text-[13px] rounded-lg text-stone-600 transition ${
-                  router.asPath === '/lounge/daily'
+                  router.asPath.startsWith('/lounge/daily')
                     ? 'font-bold bg-slate-800 text-white'
                     : null
                 }`}
@@ -134,7 +134,7 @@ export default function LeftMenu() {
               <Link
                 href='/lounge/worry'
                 className={`py-1 px-4 text-[13px] rounded-lg text-stone-600 transition ${
-                  router.asPath === '/lounge/worry'
+                  router.asPath.startsWith('/lounge/worry')
                     ? 'font-bold bg-slate-800 text-white'
                     : null
                 }`}
@@ -144,7 +144,7 @@ export default function LeftMenu() {
               <Link
                 href='/lounge/promotion'
                 className={`py-1 px-4 text-[13px] rounded-lg text-stone-600 transition ${
-                  router.asPath === '/lounge/promotion'
+                  router.asPath.startsWith('/lounge/promotion')
                     ? 'font-bold bg-slate-800 text-white'
                     : null
                 }`}
