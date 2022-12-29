@@ -7,7 +7,7 @@ npm i —legacy-peer-deps
 npm run dev-json
 
 // http://localhost:3000 개발 서버
-// http://localhost:8080 mock API 서버
+// http://localhost:3005 mock API 서버
 ```
 
 ## 기술 스택
