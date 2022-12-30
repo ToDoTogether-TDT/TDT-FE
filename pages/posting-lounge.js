@@ -2,7 +2,6 @@ import axios from 'axios'
 import dynamic from 'next/dynamic'
 import { useRouter } from 'next/router'
 import { forwardRef, useRef } from 'react'
-import { markdownToTxt } from 'markdown-to-txt'
 import Layout from '../components/Layout'
 import { useSession } from 'next-auth/react'
 import { sliceEmail } from '../lib/sliceEmail'
@@ -36,9 +35,6 @@ export default function PostingLounge() {
         title: titleRef.current.value,
         category: categoryRef.current.value,
         content: editorRef.current.editorInst.getHTML(),
-        plain_content: markdownToTxt(
-          editorRef.current.editorInst.getMarkdown()
-        ),
         author: {
           name: session.user.name,
           nickname: '@' + sliceEmail(session.user.email),
@@ -102,17 +98,6 @@ export default function PostingLounge() {
           >
             등록
           </button>
-          {/* <button
-            onClick={() =>
-              console.log(
-                titleRef.current.value,
-                categoryRef.current.value,
-                markdownToTxt(editorRef.current.editorInst.getMarkdown())
-              )
-            }
-          >
-            test
-          </button> */}
         </div>
       </div>
     </Layout>
