@@ -15,13 +15,12 @@ npm run dev-json
 - **React** - UI
 - **Next** - SSR, ISR
 - **tailwind** - styling
-- **recoil** - state management
-- **axios** - fetch library
-- **SWR** - fetch library
+- **axios** - fetch data
+- **SWR** - state management / fetch data
 - **vercel** - deploy
-- **json-server** - mock API data
+- **json-server** - mock API
 - **tally** - 설문조사, 피드백
-- **chart.js** - 데이터 시각화
+- **amchart || echart** - 차트
 - **next-auth** - oauth
 
 ## 커밋 type
