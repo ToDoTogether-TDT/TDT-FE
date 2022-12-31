@@ -18,6 +18,93 @@
         "nickname": "@jws970306",
         "image": "https://lh3.googleusercontent.com/a/AEdFTp6MHfhS0pw7GJdIed-eovHdp9RInUbYu8A4RrUT=s96-c"
       },
+      "todos": [
+        {
+          "date": "2022/12/31",
+          "lists": [
+            {
+              "text": "🔥",
+              "id": "76d60b2f-bd5b-4c50-8e4c-bb26be3c6091"
+            }
+          ]
+        },
+        {
+          "date": "2022/12/31",
+          "lists": [
+            {
+              "text": "hhhhhhhhh",
+              "id": "f3558ab7-40a9-4dd6-ba2d-f1de016d9382"
+            },
+            {
+              "text": "hhhhhh",
+              "id": "86c99b3f-d013-4281-a677-966c2fb45b8c"
+            }
+          ]
+        },
+        {
+          "date": "2023/1/2",
+          "lists": [
+            {
+              "text": "qwewqewqewqqweqe",
+              "id": "d773c763-477b-4641-8b74-4865a52b31cb"
+            },
+            {
+              "text": "wewqewqwqewew",
+              "id": "d96dc1bc-ea2f-48e1-abac-1046bdf4b2d5"
+            },
+            {
+              "text": "wewqewq",
+              "id": "0be7222f-4cfa-4e0c-8c67-113756f001dc"
+            }
+          ]
+        },
+        {
+          "date": "2023/1/1",
+          "lists": [
+            {
+              "text": "안",
+              "id": "fab6a3b4-9eee-4b5b-9097-cee4f202c36b"
+            },
+            {
+              "text": "녕",
+              "id": "2cabc4d7-ff56-4021-88e9-ecbcca07924f"
+            },
+            {
+              "text": "하",
+              "id": "bf0cca20-48d1-4e19-8c4b-0ff21e42090d"
+            },
+            {
+              "text": "세",
+              "id": "4638081a-90a9-41a6-931b-885781fc0f76"
+            },
+            {
+              "text": "요",
+              "id": "e5801576-3e3c-4b00-b934-e7ac84e1e12c"
+            }
+          ]
+        },
+        {
+          "date": "2022/12/31",
+          "lists": [
+            {
+              "text": "백준 1000번",
+              "id": "be5c2b21-bddc-4323-b8f1-490ccfd5c0c5"
+            },
+            {
+              "text": "백준 1002번",
+              "id": "59c24568-cdc3-4fce-86f3-639f23eb271c"
+            },
+            {
+              "text": "백준 21421번",
+              "id": "47c66420-03c2-4999-8070-6bed1d5e60ab"
+            },
+            {
+              "text": "dfs 공부하기",
+              "id": "e5a1b469-f450-4562-a293-a7349000e74f"
+            }
+          ]
+        }
+      ],
       "createdAt": "2022-12-29T14:56:44.313Z",
       "id": 1
     }

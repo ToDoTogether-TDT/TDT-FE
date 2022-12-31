@@ -31,3 +31,10 @@ body {
 #article ol li {
   display: list-item;
 }
+
+/* hide number input arrow  */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
