@@ -4,8 +4,9 @@ export default function StudyCard({ study }) {
   return (
     <Link
       href={`/${study.category}/${study.id}`}
-      className='w-full h-[300px] bg-white shadow hover:shadow-lg transition border p-4 flex flex-col justify-between rounded-xl'
+      className='w-full h-[240px] bg-white shadow hover:shadow-lg transition border p-4 flex flex-col justify-between rounded-xl'
     >
+      {/* 글쓴이 정보, 스터디 카테고리 */}
       <div className='flex flex-col gap-2'>
         <div className='flex justify-between items-center'>
           <div className='flex items-center gap-2'>
@@ -24,24 +25,30 @@ export default function StudyCard({ study }) {
             <span className='text-xs font-semibold'>{study.category}</span>
           </div>
         </div>
-
-        <h4 className='font-semibold mb-4'>{study.title}</h4>
+        <h4 className='font-semibold'>{study.title}</h4>
+        <p className='text-slate-500 text-sm'>{study.introduction}</p>
       </div>
+
+      {/* 스터디 createdAt */}
       <div className='flex justify-between items-center'>
         <p className='text-xs'>
           {new Date(study.createdAt).toLocaleDateString()}
         </p>
-        <div className='flex items-center'>
-          {/* {study?.members?.slice(0, 3).map((member) => (
-            <img
-              className='w-6 h-6 rounded-full'
-              src={member.image}
-              alt='1234'
-              key={member.id}
-              referrerPolicy='no-referrer'
-            />
-          ))}
-          <p className='text-xs ml-1'>• {study.members.length}명 참여 중</p> */}
+        <div className='flex items-center gap-2'>
+          <div className='flex'>
+            {study.members.map((member, i) => (
+              <img
+                className='w-6 h-6 rounded-full -ml-[5px]'
+                key={member.email + i}
+                src={member.image}
+                alt='member'
+                referrerPolicy='no-referrer'
+              />
+            ))}
+          </div>
+          <p className='mt-2 text-sm text-slate-600'>
+            ...{study.members.length}명 참여 중
+          </p>
         </div>
       </div>
     </Link>

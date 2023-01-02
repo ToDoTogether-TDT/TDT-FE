@@ -5,6 +5,36 @@
       "email": "jws970306@khu.ac.kr",
       "image": "https://lh3.googleusercontent.com/a/AEdFTp6MHfhS0pw7GJdIed-eovHdp9RInUbYu8A4RrUT=s96-c",
       "id": 1
+    },
+    {
+      "name": "장원석",
+      "email": "jws970306jws@gmail.com",
+      "image": "https://lh3.googleusercontent.com/a/AEdFTp7Uf_tIX1cSyOyn36spNNLiDVqL-Ea5o54geP7N=s96-c",
+      "id": 2
+    },
+    {
+      "name": "정솔",
+      "email": "sol-sol@gmail.com",
+      "image": "https://yt3.ggpht.com/ytc/AMLnZu8vfnIwP9wU7aQfJcivfcPjNRkowX9LbvhcrVvN6g=s68-c-k-c0x00ffffff-no-rj",
+      "id": 2
+    },
+    {
+      "name": "장원석",
+      "email": "jws970306jws@gmail.com",
+      "image": "https://lh3.googleusercontent.com/a/AEdFTp7Uf_tIX1cSyOyn36spNNLiDVqL-Ea5o54geP7N=s96-c",
+      "id": 3
+    },
+    {
+      "name": "‍장원석[학생](소프트웨어융합대학 컴퓨터공학부)",
+      "email": "jws970306@khu.ac.kr",
+      "image": "https://lh3.googleusercontent.com/a/AEdFTp6MHfhS0pw7GJdIed-eovHdp9RInUbYu8A4RrUT=s96-c",
+      "id": 4
+    },
+    {
+      "name": "장원석",
+      "email": "jws970306jws@gmail.com",
+      "image": "https://lh3.googleusercontent.com/a/AEdFTp7Uf_tIX1cSyOyn36spNNLiDVqL-Ea5o54geP7N=s96-c",
+      "id": 5
     }
   ],
   "studies": [
@@ -20,24 +50,71 @@
       },
       "todos": [
         {
-          "date": "2022/12/31",
+          "date": "2023/1/3",
           "lists": [
             {
-              "text": "🔥",
-              "id": "76d60b2f-bd5b-4c50-8e4c-bb26be3c6091"
-            }
-          ]
-        },
-        {
-          "date": "2022/12/31",
-          "lists": [
-            {
-              "text": "hhhhhhhhh",
-              "id": "f3558ab7-40a9-4dd6-ba2d-f1de016d9382"
+              "text": "초보자를 위한 리덕스 101 - INTRODUCTION",
+              "id": "6e59c357-7a9c-4830-83fe-8d5ad4eb8c6d",
+              "checked_members": [
+                {
+                  "name": "장원석",
+                  "email": "jws970306jws@gmail.com",
+                  "image": "https://lh3.googleusercontent.com/a/AEdFTp7Uf_tIX1cSyOyn36spNNLiDVqL-Ea5o54geP7N=s96-c"
+                }
+              ]
             },
             {
-              "text": "hhhhhh",
-              "id": "86c99b3f-d013-4281-a677-966c2fb45b8c"
+              "text": "초보자를 위한 리덕스 101 - PURE REDUX: COUNTER",
+              "id": "c110a4e0-7275-4c1c-9619-d95f6c050ad7",
+              "checked_members": [
+                {
+                  "name": "장원석",
+                  "email": "jws970306jws@gmail.com",
+                  "image": "https://lh3.googleusercontent.com/a/AEdFTp7Uf_tIX1cSyOyn36spNNLiDVqL-Ea5o54geP7N=s96-c"
+                }
+              ]
+            },
+            {
+              "text": "초보자를 위한 리덕스 101 - PURE REDUX: TO DO LIST",
+              "id": "8450c8f6-5189-476e-8d83-8ea4e67d3aa6",
+              "checked_members": [
+                {
+                  "name": "장원석",
+                  "email": "jws970306jws@gmail.com",
+                  "image": "https://lh3.googleusercontent.com/a/AEdFTp7Uf_tIX1cSyOyn36spNNLiDVqL-Ea5o54geP7N=s96-c"
+                },
+                {
+                  "name": "‍장원석[학생](소프트웨어융합대학 컴퓨터공학부)",
+                  "email": "jws970306@khu.ac.kr",
+                  "image": "https://lh3.googleusercontent.com/a/AEdFTp6MHfhS0pw7GJdIed-eovHdp9RInUbYu8A4RrUT=s96-c"
+                }
+              ]
+            },
+            {
+              "text": "초보자를 위한 리덕스 101 - REACT REDUX",
+              "id": "f95951bc-9363-45ec-8d61-178c0fe15b32",
+              "checked_members": [
+                {
+                  "name": "‍장원석[학생](소프트웨어융합대학 컴퓨터공학부)",
+                  "email": "jws970306@khu.ac.kr",
+                  "image": "https://lh3.googleusercontent.com/a/AEdFTp6MHfhS0pw7GJdIed-eovHdp9RInUbYu8A4RrUT=s96-c"
+                }
+              ]
+            },
+            {
+              "text": "알고리즘 3문제",
+              "id": "bf8f0c68-d01e-4dd4-93fa-b5c35e0f3a59",
+              "checked_members": [
+                {
+                  "name": "장원석",
+                  "email": "jws970306jws@gmail.com",
+                  "image": "https://lh3.googleusercontent.com/a/AEdFTp7Uf_tIX1cSyOyn36spNNLiDVqL-Ea5o54geP7N=s96-c"
+                }
+              ]
+            },
+            {
+              "text": "TDT 프로젝트",
+              "id": "9853403c-98bc-42b4-a003-ebb2eb39518e"
             }
           ]
         },
@@ -45,64 +122,45 @@
           "date": "2023/1/2",
           "lists": [
             {
-              "text": "qwewqewqewqqweqe",
-              "id": "d773c763-477b-4641-8b74-4865a52b31cb"
+              "text": "Auth Does NOT Have To Be Hard",
+              "id": "3dedcc8a-f286-4dfc-9bdb-2fba0ce29b78"
             },
             {
-              "text": "wewqewqwqewew",
-              "id": "d96dc1bc-ea2f-48e1-abac-1046bdf4b2d5"
+              "text": "Speed Up Your React Apps With Code Splitting",
+              "id": "7ce57105-b30a-42be-bb5b-e7a0f19eb500"
             },
             {
-              "text": "wewqewq",
-              "id": "0be7222f-4cfa-4e0c-8c67-113756f001dc"
+              "text": "why typescript? 읽어보기",
+              "id": "4bc68605-928f-494f-9199-0dff342b953e"
+            },
+            {
+              "text": "fundamentals - typescript",
+              "id": "db3ebd97-2a6d-46cf-8557-fbf20c0752f1"
             }
           ]
+        }
+      ],
+      "members": [
+        {
+          "name": "‍장원석[학생](소프트웨어융합대학 컴퓨터공학부)",
+          "email": "jws970306@khu.ac.kr",
+          "nickname": "@jws970306",
+          "image": "https://lh3.googleusercontent.com/a/AEdFTp6MHfhS0pw7GJdIed-eovHdp9RInUbYu8A4RrUT=s96-c",
+          "id": 1
         },
         {
-          "date": "2023/1/1",
-          "lists": [
-            {
-              "text": "안",
-              "id": "fab6a3b4-9eee-4b5b-9097-cee4f202c36b"
-            },
-            {
-              "text": "녕",
-              "id": "2cabc4d7-ff56-4021-88e9-ecbcca07924f"
-            },
-            {
-              "text": "하",
-              "id": "bf0cca20-48d1-4e19-8c4b-0ff21e42090d"
-            },
-            {
-              "text": "세",
-              "id": "4638081a-90a9-41a6-931b-885781fc0f76"
-            },
-            {
-              "text": "요",
-              "id": "e5801576-3e3c-4b00-b934-e7ac84e1e12c"
-            }
-          ]
+          "name": "장원석",
+          "email": "jws970306jws@gmail.com",
+          "nickname": "@jws970306jws",
+          "image": "https://lh3.googleusercontent.com/a/AEdFTp7Uf_tIX1cSyOyn36spNNLiDVqL-Ea5o54geP7N=s96-c",
+          "id": 2
         },
         {
-          "date": "2022/12/31",
-          "lists": [
-            {
-              "text": "백준 1000번",
-              "id": "be5c2b21-bddc-4323-b8f1-490ccfd5c0c5"
-            },
-            {
-              "text": "백준 1002번",
-              "id": "59c24568-cdc3-4fce-86f3-639f23eb271c"
-            },
-            {
-              "text": "백준 21421번",
-              "id": "47c66420-03c2-4999-8070-6bed1d5e60ab"
-            },
-            {
-              "text": "dfs 공부하기",
-              "id": "e5a1b469-f450-4562-a293-a7349000e74f"
-            }
-          ]
+          "name": "정솔",
+          "email": "sol-sol@gmail.com",
+          "nickname": "@sol-sol",
+          "image": "https://yt3.ggpht.com/ytc/AMLnZu8vfnIwP9wU7aQfJcivfcPjNRkowX9LbvhcrVvN6g=s68-c-k-c0x00ffffff-no-rj",
+          "id": 3
         }
       ],
       "createdAt": "2022-12-29T14:56:44.313Z",
