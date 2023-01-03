@@ -2,6 +2,11 @@ import { useRouter } from 'next/router'
 import Layout from '../../components/Layout'
 import { useFetch } from '../../lib/useFetch'
 
+// const pageType = {
+//   STUDY: "STUDY",
+//   POST:
+// }
+
 export default function User() {
   const router = useRouter()
   const user = useFetch('users', 'nickname', router.query.name)
@@ -30,6 +35,17 @@ export default function User() {
           </span>
           <span className=' text-stone-500'>{user[0].nickname}</span>
         </div>
+      </div>
+      <div className='mt-20'>
+        <div className='flex gap-4'>
+          <button className='bg-indigo-500 text-indigo-50 py-3 px-6 rounded'>
+            참여중인 스터디
+          </button>
+          <button className='bg-indigo-500 text-indigo-50 py-3 px-6 rounded'>
+            내 포스트
+          </button>
+        </div>
+        <div></div>
       </div>
     </Layout>
   )

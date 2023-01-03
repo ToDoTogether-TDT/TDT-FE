@@ -1,11 +1,21 @@
 import axios from 'axios'
 import { useSession } from 'next-auth/react'
+import dynamic from 'next/dynamic'
 import { useRouter } from 'next/router'
-import { useState } from 'react'
+import { forwardRef, useRef, useState } from 'react'
 import { mutate } from 'swr'
 import AddToDoForm from '../../components/AddToDoForm'
 import Layout from '../../components/Layout'
+import { sliceEmail } from '../../lib/sliceEmail'
 import { useFetch } from '../../lib/useFetch'
+
+const CommentEditor = dynamic(() => import('../../components/CommentEditor'), {
+  ssr: false,
+})
+const CommentEditorRef = forwardRef((props, ref) => (
+  <CommentEditor {...props} forwardedRef={ref} />
+))
+CommentEditorRef.displayName = 'CommentEditorRef'
 
 const pageType = {
   TODOS: 'TODOS',
@@ -35,6 +45,7 @@ export default function StudyPost() {
   const [isToDo, setIsToDo] = useState(false)
   const [page, setPage] = useState(pageType.TODOS)
   const { data: session } = useSession()
+  const commentRef = useRef()
 
   // if (session) console.log(session.user)
 
@@ -47,6 +58,10 @@ export default function StudyPost() {
   }
 
   const onToDoClick = (listId) => async () => {
+    if (!session) {
+      alert('멤버가 맞으신가요? 로그인 해주세요! 😅')
+      return
+    }
     let updatedToDos = study[0].todos.map((todo) => {
       return {
         date: todo.date,
@@ -68,6 +83,39 @@ export default function StudyPost() {
       `http://localhost:3005/studies/${study[0].id}`,
       {
         todos: updatedToDos,
+      }
+    )
+
+    mutate(`${process.env.NEXT_PUBLIC_BASE_URL}/studies?id=${study[0].id}`)
+  }
+
+  const onUploadCommentButtonClick = async () => {
+    if (!session) {
+      alert('로그인 먼저 해주세요 😅')
+      return
+    }
+
+    const res = await axios.patch(
+      `http://localhost:3005/studies/${study[0].id}`,
+      {
+        comments: study[0].comments
+          ? [
+              ...study[0].comments,
+              {
+                id: study[0].comments.length + 1,
+                user: session.user,
+                content: commentRef.current.editorInst.getHTML(),
+                createdAt: Date.now(),
+              },
+            ]
+          : [
+              {
+                id: 1,
+                user: session.user,
+                content: commentRef.current.editorInst.getHTML(),
+                createdAt: Date.now(),
+              },
+            ],
       }
     )
 
@@ -96,16 +144,25 @@ export default function StudyPost() {
             {isToDo ? '게시글로 돌아가기' : 'ToDo 추가하기'}
           </button>
         </div>
+
         {isToDo ? (
           <AddToDoForm study={study} setIsToDo={setIsToDo} />
         ) : (
           <>
-            {/* 스터디 제목, 짧은 소개 */}
-            <div className='py-8 mb-8'>
+            {/* 스터디 제목, 짧은 소개, 멤버 참여 버튼 */}
+            <div className='py-8'>
               <div className='text-4xl font-black mb-4 text-indigo-600'>
                 {study[0].title}
               </div>
               <div className='text-slate-500'>{study[0].introduction}</div>
+              <button
+                onClick={() => {
+                  alert('신청 완료! 스터디 장의 수락을 기다려주세요 👍')
+                }}
+                className='py-3 px-7 font-extrabold text-lime-50 rounded-lg border mt-8 bg-gradient-to-tl from-lime-400 to-cyan-400 hover:from-black hover:to-black'
+              >
+                멤버로 참여하기! 👋
+              </button>
             </div>
 
             {/* 페이지 전환 버튼 */}
@@ -172,15 +229,17 @@ export default function StudyPost() {
                             {i + 1}
                           </span>
                           <span>{list.text}</span>
-                          {list.checked_members?.map((checked_member, i) => (
-                            <img
-                              key={checked_member.email + i}
-                              className='w-6 h-6 rounded-full'
-                              src={checked_member.image}
-                              alt='user'
-                              referrerPolicy='no-referrer'
-                            />
-                          ))}
+                          <div className='flex gap-1'>
+                            {list.checked_members?.map((checked_member, i) => (
+                              <img
+                                key={checked_member.email + i}
+                                className='w-5 h-5 rounded'
+                                src={checked_member.image}
+                                alt='user'
+                                referrerPolicy='no-referrer'
+                              />
+                            ))}
+                          </div>
                         </li>
                       ))}
                     </ul>
@@ -211,8 +270,48 @@ export default function StudyPost() {
                     <p className='text-sm'>{member.nickname}</p>
                   </div>
                 ))}
+
+                <div className=''>
+                  <p>대기중인 스터디 요청</p>
+                </div>
               </div>
             )}
+
+            {/* 댓글 */}
+            <div className='mt-20 bg-white rounded'>
+              <p className='text-xl font-bold text-indigo-600 mb-2 border-b pb-4 border-slate-400'>
+                댓글
+              </p>
+              <div className='my-8 flex flex-col gap-6'>
+                {study[0].comments?.map((comment) => (
+                  <div className='' key={comment.id}>
+                    <div className='flex gap-1 items-center'>
+                      <img
+                        className='w-6 h-6 rounded-full'
+                        src={comment.user.image}
+                        alt='user'
+                      />
+                      <p className='text-xs'>
+                        {'@' + sliceEmail(comment.user.email)}
+                      </p>
+                    </div>
+                    <div
+                      className='markdown-body mt-2 text-sm'
+                      dangerouslySetInnerHTML={{ __html: comment.content }}
+                    ></div>
+                  </div>
+                ))}
+              </div>
+              <CommentEditorRef ref={commentRef} />
+              <div className='flex justify-end mt-4'>
+                <button
+                  onClick={onUploadCommentButtonClick}
+                  className='py-2 px-6 rounded bg-indigo-500 text-white'
+                >
+                  등록
+                </button>
+              </div>
+            </div>
           </>
         )}
       </div>

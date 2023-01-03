@@ -35,6 +35,72 @@
       "email": "jws970306jws@gmail.com",
       "image": "https://lh3.googleusercontent.com/a/AEdFTp7Uf_tIX1cSyOyn36spNNLiDVqL-Ea5o54geP7N=s96-c",
       "id": 5
+    },
+    {
+      "name": "‍장원석[학생](소프트웨어융합대학 컴퓨터공학부)",
+      "email": "jws970306@khu.ac.kr",
+      "image": "https://lh3.googleusercontent.com/a/AEdFTp6MHfhS0pw7GJdIed-eovHdp9RInUbYu8A4RrUT=s96-c",
+      "id": 6
+    },
+    {
+      "name": "장원석",
+      "email": "jws970306jws@gmail.com",
+      "image": "https://lh3.googleusercontent.com/a/AEdFTp7Uf_tIX1cSyOyn36spNNLiDVqL-Ea5o54geP7N=s96-c",
+      "id": 7
+    },
+    {
+      "name": "‍장원석[학생](소프트웨어융합대학 컴퓨터공학부)",
+      "email": "jws970306@khu.ac.kr",
+      "image": "https://lh3.googleusercontent.com/a/AEdFTp6MHfhS0pw7GJdIed-eovHdp9RInUbYu8A4RrUT=s96-c",
+      "id": 8
+    },
+    {
+      "name": "‍장원석[학생](소프트웨어융합대학 컴퓨터공학부)",
+      "email": "jws970306@khu.ac.kr",
+      "image": "https://lh3.googleusercontent.com/a/AEdFTp6MHfhS0pw7GJdIed-eovHdp9RInUbYu8A4RrUT=s96-c",
+      "id": 9
+    },
+    {
+      "name": "장원석",
+      "email": "jws970306jws@gmail.com",
+      "image": "https://lh3.googleusercontent.com/a/AEdFTp7Uf_tIX1cSyOyn36spNNLiDVqL-Ea5o54geP7N=s96-c",
+      "id": 10
+    },
+    {
+      "name": "‍장원석[학생](소프트웨어융합대학 컴퓨터공학부)",
+      "email": "jws970306@khu.ac.kr",
+      "image": "https://lh3.googleusercontent.com/a/AEdFTp6MHfhS0pw7GJdIed-eovHdp9RInUbYu8A4RrUT=s96-c",
+      "id": 11
+    },
+    {
+      "name": "‍장원석[학생](소프트웨어융합대학 컴퓨터공학부)",
+      "email": "jws970306@khu.ac.kr",
+      "image": "https://lh3.googleusercontent.com/a/AEdFTp6MHfhS0pw7GJdIed-eovHdp9RInUbYu8A4RrUT=s96-c",
+      "id": 12
+    },
+    {
+      "name": "‍장원석[학생](소프트웨어융합대학 컴퓨터공학부)",
+      "email": "jws970306@khu.ac.kr",
+      "image": "https://lh3.googleusercontent.com/a/AEdFTp6MHfhS0pw7GJdIed-eovHdp9RInUbYu8A4RrUT=s96-c",
+      "id": 13
+    },
+    {
+      "name": "‍장원석[학생](소프트웨어융합대학 컴퓨터공학부)",
+      "email": "jws970306@khu.ac.kr",
+      "image": "https://lh3.googleusercontent.com/a/AEdFTp6MHfhS0pw7GJdIed-eovHdp9RInUbYu8A4RrUT=s96-c",
+      "id": 14
+    },
+    {
+      "name": "‍장원석[학생](소프트웨어융합대학 컴퓨터공학부)",
+      "email": "jws970306@khu.ac.kr",
+      "image": "https://lh3.googleusercontent.com/a/AEdFTp6MHfhS0pw7GJdIed-eovHdp9RInUbYu8A4RrUT=s96-c",
+      "id": 15
+    },
+    {
+      "name": "‍장원석[학생](소프트웨어융합대학 컴퓨터공학부)",
+      "email": "jws970306@khu.ac.kr",
+      "image": "https://lh3.googleusercontent.com/a/AEdFTp6MHfhS0pw7GJdIed-eovHdp9RInUbYu8A4RrUT=s96-c",
+      "id": 16
     }
   ],
   "studies": [
@@ -56,6 +122,11 @@
               "text": "초보자를 위한 리덕스 101 - INTRODUCTION",
               "id": "6e59c357-7a9c-4830-83fe-8d5ad4eb8c6d",
               "checked_members": [
+                {
+                  "name": "장원석",
+                  "email": "jws970306jws@gmail.com",
+                  "image": "https://lh3.googleusercontent.com/a/AEdFTp7Uf_tIX1cSyOyn36spNNLiDVqL-Ea5o54geP7N=s96-c"
+                },
                 {
                   "name": "장원석",
                   "email": "jws970306jws@gmail.com",
@@ -98,6 +169,11 @@
                   "name": "‍장원석[학생](소프트웨어융합대학 컴퓨터공학부)",
                   "email": "jws970306@khu.ac.kr",
                   "image": "https://lh3.googleusercontent.com/a/AEdFTp6MHfhS0pw7GJdIed-eovHdp9RInUbYu8A4RrUT=s96-c"
+                },
+                {
+                  "name": "‍장원석[학생](소프트웨어융합대학 컴퓨터공학부)",
+                  "email": "jws970306@khu.ac.kr",
+                  "image": "https://lh3.googleusercontent.com/a/AEdFTp6MHfhS0pw7GJdIed-eovHdp9RInUbYu8A4RrUT=s96-c"
                 }
               ]
             },
@@ -105,6 +181,11 @@
               "text": "알고리즘 3문제",
               "id": "bf8f0c68-d01e-4dd4-93fa-b5c35e0f3a59",
               "checked_members": [
+                {
+                  "name": "‍장원석[학생](소프트웨어융합대학 컴퓨터공학부)",
+                  "email": "jws970306@khu.ac.kr",
+                  "image": "https://lh3.googleusercontent.com/a/AEdFTp6MHfhS0pw7GJdIed-eovHdp9RInUbYu8A4RrUT=s96-c"
+                },
                 {
                   "name": "장원석",
                   "email": "jws970306jws@gmail.com",
@@ -114,7 +195,14 @@
             },
             {
               "text": "TDT 프로젝트",
-              "id": "9853403c-98bc-42b4-a003-ebb2eb39518e"
+              "id": "9853403c-98bc-42b4-a003-ebb2eb39518e",
+              "checked_members": [
+                {
+                  "name": "‍장원석[학생](소프트웨어융합대학 컴퓨터공학부)",
+                  "email": "jws970306@khu.ac.kr",
+                  "image": "https://lh3.googleusercontent.com/a/AEdFTp6MHfhS0pw7GJdIed-eovHdp9RInUbYu8A4RrUT=s96-c"
+                }
+              ]
             }
           ]
         },
@@ -123,11 +211,30 @@
           "lists": [
             {
               "text": "Auth Does NOT Have To Be Hard",
-              "id": "3dedcc8a-f286-4dfc-9bdb-2fba0ce29b78"
+              "id": "3dedcc8a-f286-4dfc-9bdb-2fba0ce29b78",
+              "checked_members": [
+                {
+                  "name": "‍장원석[학생](소프트웨어융합대학 컴퓨터공학부)",
+                  "email": "jws970306@khu.ac.kr",
+                  "image": "https://lh3.googleusercontent.com/a/AEdFTp6MHfhS0pw7GJdIed-eovHdp9RInUbYu8A4RrUT=s96-c"
+                },
+                {
+                  "name": "장원석",
+                  "email": "jws970306jws@gmail.com",
+                  "image": "https://lh3.googleusercontent.com/a/AEdFTp7Uf_tIX1cSyOyn36spNNLiDVqL-Ea5o54geP7N=s96-c"
+                }
+              ]
             },
             {
               "text": "Speed Up Your React Apps With Code Splitting",
-              "id": "7ce57105-b30a-42be-bb5b-e7a0f19eb500"
+              "id": "7ce57105-b30a-42be-bb5b-e7a0f19eb500",
+              "checked_members": [
+                {
+                  "name": "장원석",
+                  "email": "jws970306jws@gmail.com",
+                  "image": "https://lh3.googleusercontent.com/a/AEdFTp7Uf_tIX1cSyOyn36spNNLiDVqL-Ea5o54geP7N=s96-c"
+                }
+              ]
             },
             {
               "text": "why typescript? 읽어보기",
@@ -164,7 +271,39 @@
         }
       ],
       "createdAt": "2022-12-29T14:56:44.313Z",
-      "id": 1
+      "id": 1,
+      "comments": [
+        {
+          "id": 1,
+          "user": {
+            "name": "‍장원석[학생](소프트웨어융합대학 컴퓨터공학부)",
+            "email": "jws970306@khu.ac.kr",
+            "image": "https://lh3.googleusercontent.com/a/AEdFTp6MHfhS0pw7GJdIed-eovHdp9RInUbYu8A4RrUT=s96-c"
+          },
+          "content": "<p>반갑습니다<strong> 어서오세요</strong></p>",
+          "createdAt": 1672714233525
+        },
+        {
+          "id": 2,
+          "user": {
+            "name": "장원석",
+            "email": "jws970306jws@gmail.com",
+            "image": "https://lh3.googleusercontent.com/a/AEdFTp7Uf_tIX1cSyOyn36spNNLiDVqL-Ea5o54geP7N=s96-c"
+          },
+          "content": "<p>반갑습니다 열심히 참여해주세요 👋</p>",
+          "createdAt": 1672714300041
+        },
+        {
+          "id": 3,
+          "user": {
+            "name": "‍장원석[학생](소프트웨어융합대학 컴퓨터공학부)",
+            "email": "jws970306@khu.ac.kr",
+            "image": "https://lh3.googleusercontent.com/a/AEdFTp6MHfhS0pw7GJdIed-eovHdp9RInUbYu8A4RrUT=s96-c"
+          },
+          "content": "<p>네</p>",
+          "createdAt": 1672717839834
+        }
+      ]
     }
   ],
   "posts": []

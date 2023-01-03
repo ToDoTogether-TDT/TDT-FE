@@ -23,7 +23,7 @@ export default function LeftMenu() {
                 href='/'
                 className={`py-1 px-4 text-[13px] rounded-lg text-stone-600 transition ${
                   router.asPath === '/'
-                    ? 'font-bold bg-slate-800 text-white'
+                    ? 'font-bold bg-slate-300 text-indigo-500'
                     : null
                 }`}
               >
@@ -33,7 +33,7 @@ export default function LeftMenu() {
                 href='/programming'
                 className={`py-1 px-4 text-[13px] rounded-lg text-stone-600 transition ${
                   router.asPath.startsWith('/programming')
-                    ? 'font-bold bg-slate-800 text-white'
+                    ? 'font-bold bg-slate-300 text-indigo-500'
                     : null
                 }`}
               >
@@ -43,7 +43,7 @@ export default function LeftMenu() {
                 href='/job'
                 className={`py-1 px-4 text-[13px] rounded-lg text-stone-600 transition ${
                   router.asPath.startsWith('/job')
-                    ? 'font-bold bg-slate-800 text-white'
+                    ? 'font-bold bg-slate-300 text-indigo-500'
                     : null
                 }`}
               >
@@ -53,7 +53,7 @@ export default function LeftMenu() {
                 href='/exam'
                 className={`py-1 px-4 text-[13px] rounded-lg text-stone-600 transition ${
                   router.asPath.startsWith('/exam')
-                    ? 'font-bold bg-slate-800 text-white'
+                    ? 'font-bold bg-slate-300 text-indigo-500'
                     : null
                 }`}
               >
@@ -63,7 +63,7 @@ export default function LeftMenu() {
                 href='/hobby'
                 className={`py-1 px-4 text-[13px] rounded-lg text-stone-600 transition ${
                   router.asPath.startsWith('/hobby')
-                    ? 'font-bold bg-slate-800 text-white'
+                    ? 'font-bold bg-slate-300 text-indigo-500'
                     : null
                 }`}
               >
@@ -73,7 +73,7 @@ export default function LeftMenu() {
                 href='/language'
                 className={`py-1 px-4 text-[13px] rounded-lg text-stone-600 transition ${
                   router.asPath.startsWith('/language')
-                    ? 'font-bold bg-slate-800 text-white'
+                    ? 'font-bold bg-slate-300 text-indigo-500'
                     : null
                 }`}
               >
@@ -83,7 +83,7 @@ export default function LeftMenu() {
                 href='/book'
                 className={`py-1 px-4 text-[13px] rounded-lg text-stone-600 transition ${
                   router.asPath.startsWith('/book')
-                    ? 'font-bold bg-slate-800 text-white'
+                    ? 'font-bold bg-slate-300 text-indigo-500'
                     : null
                 }`}
               >
@@ -93,7 +93,7 @@ export default function LeftMenu() {
                 href='/etc'
                 className={`py-1 px-4 text-[13px] rounded-lg text-stone-600 transition ${
                   router.asPath.startsWith('/etc')
-                    ? 'font-bold bg-slate-800 text-white'
+                    ? 'font-bold bg-slate-300 text-indigo-500'
                     : null
                 }`}
               >
@@ -115,7 +115,7 @@ export default function LeftMenu() {
                 href='/lounge'
                 className={`py-1 px-4 text-[13px] rounded-lg text-stone-600 transition ${
                   router.asPath === '/lounge'
-                    ? 'font-bold bg-slate-800 text-white'
+                    ? 'font-bold bg-slate-300 text-indigo-500'
                     : null
                 }`}
               >
@@ -125,7 +125,7 @@ export default function LeftMenu() {
                 href='/lounge/daily'
                 className={`py-1 px-4 text-[13px] rounded-lg text-stone-600 transition ${
                   router.asPath.startsWith('/lounge/daily')
-                    ? 'font-bold bg-slate-800 text-white'
+                    ? 'font-bold bg-slate-300 text-indigo-500'
                     : null
                 }`}
               >
@@ -135,7 +135,7 @@ export default function LeftMenu() {
                 href='/lounge/worry'
                 className={`py-1 px-4 text-[13px] rounded-lg text-stone-600 transition ${
                   router.asPath.startsWith('/lounge/worry')
-                    ? 'font-bold bg-slate-800 text-white'
+                    ? 'font-bold bg-slate-300 text-indigo-500'
                     : null
                 }`}
               >
@@ -145,7 +145,7 @@ export default function LeftMenu() {
                 href='/lounge/promotion'
                 className={`py-1 px-4 text-[13px] rounded-lg text-stone-600 transition ${
                   router.asPath.startsWith('/lounge/promotion')
-                    ? 'font-bold bg-slate-800 text-white'
+                    ? 'font-bold bg-slate-300 text-indigo-500'
                     : null
                 }`}
               >
