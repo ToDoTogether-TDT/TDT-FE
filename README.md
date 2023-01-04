@@ -1,3 +1,89 @@
+# API METHODS - POSTCONTROLLER
+
+> 카테고리 구분 없이 모든 스터디를 받아오는 `API`가 없음  
+> ex) `GET /post`
+
+## deletePostUsingDELETE ✍🏻
+
+- `nickname`은 넘겨줄 필요 없음
+
+<br/><hr/><br/>
+
+## editPostUsingPUT ✍🏻
+
+- `EditPostReq.category`의 `Enum`은 `daily, worry, promotion`
+- 유저 정보로 `nickname`만 넘겨주지말고, 유니크한 값인 `userId`나 `email`같은 데이터를 전달하거나  
+  `writer: { nickname: string, image: string}` 같이 전달 해야할 것 같음
+
+<br/><hr/><br/>
+
+## getPostListUsingGET ✍🏻
+
+- `response body` 비어있음
+
+<br/><hr/><br/>
+
+## getPostUsingGET ✍🏻
+
+- `response body` 비어있음
+
+<br/><hr/><br/>
+
+## postUsingPOST ✅
+
+- `enum:  daily, worry, promotion` 로 수정
+- `writer`에 넘겨주는 `string`이 무슨 값인지 모르겠음
+
+<br/><hr/><br/>
+
+# API METHODS - SCHEDULECONTROLLER
+
+## addScheduleUsingPOST ✍🏻
+
+아래처럼 구조 바꿔야함
+
+```yml
+ScheduleRequestDto {
+  date: string (스터디 추가 날짜 ex. 2023/1/4),
+  lists: [
+    {
+      text: string (todo내용 ex. 백준 1004번 풀기),
+      id: string,
+    },
+    {...},
+    {...},
+  ]
+}
+```
+
+<br/><hr/><br/>
+
+## deleteScheduleUsingDELETE ✍🏻
+
+- 스터디의 todo를 삭제할 때, `scheduleId, studyId`만 서버로 넘겨주면되고 `memberId`는 넘겨줄 필요 없어보임
+
+<br/><hr/><br/>
+
+## editScheduleUsingPUT ✍🏻
+
+아래처럼 구조 바꿔야함
+
+```yml
+ScheduleRequestDto {
+  date: string (스터디 추가 날짜 ex. 2023/1/4),
+  lists: [
+    {
+      text: string (todo내용 ex. 백준 1004번 풀기),
+      id: string,
+    },
+    {...},
+    {...},
+  ]
+}
+```
+
+<br/><hr/><br/>
+
 # API METHODS - TEAMCONTROLLER
 
 <br/>
@@ -33,19 +119,21 @@
 - `StudyListResponseDto.category`에서 `daily, worry, promotion`은 빼야함
 - 아래처럼 `todos` 부분만 바꾸면 될거같음
 
-```
+```yml
 todos: [
   ScheduleDto {
-    date: 날짜(ex. 2023/1/4),
-    id: integer,
+    date: string (날짜 ex. 2023/1/4),
+    id: string,
     lists: [
       {
-        text: todo내용(ex. 백준 1004번 풀기),
+        text: string (todo내용 ex. 백준 1004번 풀기),
         id: integer,
         checked_members: [
-          MemberDto {image, nickname}
+         {image, nickname}, {...}, {...}, ...
         ]
-      }
+      },
+      {...},
+      {...},
     ],
   }
 ]
