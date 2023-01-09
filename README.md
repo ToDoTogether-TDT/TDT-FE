@@ -1,3 +1,19 @@
+# API METHODS - LOGINCONTROLLER
+
+<br/><hr/><br/>
+
+## addProfileUsingPATCH
+
+<br/><hr/><br/>
+
+## loginUsingPOST
+
+<br/><hr/><br/>
+
+## signOutMemberUsingDELETE
+
+<br/><hr/><br/>
+
 # API METHODS - POSTCONTROLLER
 
 > 카테고리 구분 없이 모든 스터디를 받아오는 `API`가 없음  
@@ -178,3 +194,5 @@ todos: [
 
 - prevent XSS: DomPurify
 - toastify
+- Locally generated data: If your data is generated and persisted locally (e.g. notes in a note-taking app), use an incrementing counter, crypto.randomUUID() or a package like uuid when creating items.
+- masking api -> next js rewrites
