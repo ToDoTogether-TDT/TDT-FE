@@ -222,7 +222,7 @@ export default function Header() {
                             {session.user.name}
                           </p>
                           <p className='text-xs text-stone-600'>
-                            @{sliceEmail(session.user.email)}
+                            {sliceEmail(session.user.email)}
                           </p>
                         </div>
                       </div>

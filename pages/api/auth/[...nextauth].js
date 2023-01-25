@@ -2,6 +2,7 @@ import axios from 'axios'
 import NextAuth from 'next-auth'
 import GoogleProvider from 'next-auth/providers/google'
 import useSWR from 'swr'
+import { sliceEmail } from '../../../lib/sliceEmail'
 
 export const authOptions = {
   providers: [
@@ -22,6 +23,7 @@ export const authOptions = {
           name: profile.name,
           email: profile.email,
           image: profile.picture,
+          nickname: sliceEmail(profile.email),
         })
       }
 

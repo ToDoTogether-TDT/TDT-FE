@@ -271,8 +271,8 @@ export default function StudyPost() {
                   </div>
                 ))}
 
-                <div className=''>
-                  <p>대기중인 스터디 요청</p>
+                <div className='mt-20'>
+                  <p className='text-sm font-black'>대기중인 스터디 요청 👋</p>
                 </div>
               </div>
             )}
@@ -292,7 +292,7 @@ export default function StudyPost() {
                         alt='user'
                       />
                       <p className='text-xs'>
-                        {'@' + sliceEmail(comment.user.email)}
+                        {sliceEmail(comment.user.email)}
                       </p>
                     </div>
                     <div

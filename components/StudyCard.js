@@ -36,7 +36,7 @@ export default function StudyCard({ study }) {
         </p>
         <div className='flex items-center gap-2'>
           <div className='flex'>
-            {study.members.map((member, i) => (
+            {study.members?.map((member, i) => (
               <img
                 className='w-6 h-6 rounded-full -ml-[5px]'
                 key={member.email + i}

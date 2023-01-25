@@ -38,14 +38,13 @@ export default function User() {
       </div>
       <div className='mt-20'>
         <div className='flex gap-4'>
-          <button className='bg-indigo-500 text-indigo-50 py-3 px-6 rounded'>
+          <button className='border border-black  py-3 px-6 rounded'>
             참여중인 스터디
           </button>
-          <button className='bg-indigo-500 text-indigo-50 py-3 px-6 rounded'>
+          <button className='border border-black  py-3 px-6 rounded'>
             내 포스트
           </button>
         </div>
-        <div></div>
       </div>
     </Layout>
   )

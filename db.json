@@ -238,7 +238,14 @@
             },
             {
               "text": "why typescript? 읽어보기",
-              "id": "4bc68605-928f-494f-9199-0dff342b953e"
+              "id": "4bc68605-928f-494f-9199-0dff342b953e",
+              "checked_members": [
+                {
+                  "name": "‍장원석[학생](소프트웨어융합대학 컴퓨터공학부)",
+                  "email": "jws970306@khu.ac.kr",
+                  "image": "https://lh3.googleusercontent.com/a/AEdFTp6MHfhS0pw7GJdIed-eovHdp9RInUbYu8A4RrUT=s96-c"
+                }
+              ]
             },
             {
               "text": "fundamentals - typescript",
@@ -302,9 +309,64 @@
           },
           "content": "<p>네</p>",
           "createdAt": 1672717839834
+        },
+        {
+          "id": 4,
+          "user": {
+            "name": "‍장원석[학생](소프트웨어융합대학 컴퓨터공학부)",
+            "email": "jws970306@khu.ac.kr",
+            "image": "https://lh3.googleusercontent.com/a/AEdFTp6MHfhS0pw7GJdIed-eovHdp9RInUbYu8A4RrUT=s96-c"
+          },
+          "content": "<p>123</p>",
+          "createdAt": 1672725608537
+        },
+        {
+          "id": 5,
+          "user": {
+            "name": "‍장원석[학생](소프트웨어융합대학 컴퓨터공학부)",
+            "email": "jws970306@khu.ac.kr",
+            "image": "https://lh3.googleusercontent.com/a/AEdFTp6MHfhS0pw7GJdIed-eovHdp9RInUbYu8A4RrUT=s96-c"
+          },
+          "content": "<p><strong>반갑워요</strong></p>",
+          "createdAt": 1672725710535
+        },
+        {
+          "id": 6,
+          "user": {
+            "name": "‍장원석[학생](소프트웨어융합대학 컴퓨터공학부)",
+            "email": "jws970306@khu.ac.kr",
+            "image": "https://lh3.googleusercontent.com/a/AEdFTp6MHfhS0pw7GJdIed-eovHdp9RInUbYu8A4RrUT=s96-c"
+          },
+          "content": "<p>여기에 댓글을 입력하세요</p>",
+          "createdAt": 1672804015462
         }
       ]
     }
   ],
-  "posts": []
+  "posts": [
+    {
+      "title": "게시글",
+      "category": "daily",
+      "content": "<p>🔥🔥🔥</p>",
+      "author": {
+        "name": "‍장원석[학생](소프트웨어융합대학 컴퓨터공학부)",
+        "nickname": "@@jws970306",
+        "image": "https://lh3.googleusercontent.com/a/AEdFTp6MHfhS0pw7GJdIed-eovHdp9RInUbYu8A4RrUT=s96-c"
+      },
+      "createdAt": "2023-01-03T07:01:15.420Z",
+      "id": 1
+    },
+    {
+      "title": "하이",
+      "category": "worry",
+      "content": "<p>🔥🔥🔥123</p>",
+      "author": {
+        "name": "‍장원석[학생](소프트웨어융합대학 컴퓨터공학부)",
+        "nickname": "@@jws970306",
+        "image": "https://lh3.googleusercontent.com/a/AEdFTp6MHfhS0pw7GJdIed-eovHdp9RInUbYu8A4RrUT=s96-c"
+      },
+      "createdAt": "2023-01-03T07:03:36.619Z",
+      "id": 2
+    }
+  ]
 }
